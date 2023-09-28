@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OldKickKustom">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="259dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:onClick="btnNavegacao"
+        android:text="Ver no mapa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="259dp"
+        android:layout_height="40dp"
+        android:onClick="btnSite"
+        android:text="Abrir site"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="259dp"
+        android:layout_height="40dp"
+        android:onClick="btnTelefone"
+        android:text="Telefonar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="371dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="28dp"
+        android:text="De segunda a sexta, oficina de recuperação, customização, criação e designer de carros e motocicletas antigas e especiais, além de réplicas em chapa de carros e projetos especiais, restauração de peças e customização de motos.  Aos sábados das 20h às 03h, o ambiente se transforma em um bar. Todas as noites com um DJ e uma banda ao vivo."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="121dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/galeria_kick1" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="121dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/galeria_kick2" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="121dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/galeria_kick3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Galeria de fotos"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
